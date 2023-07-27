@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AreaFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="151dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/triangle" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="148dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/circle" />
+
+    <EditText
+        android:id="@+id/etPanjang"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200dp"
+        android:ems="10"
+        android:hint="panjang"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etLebar"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:hint="lebar"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="290dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="280dp"
+        android:text="X" />
+
+    <TextView
+        android:id="@+id/resultPersegi"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="70dp"
+        android:text="Result: "
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/hitungPersegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas Persegi"
+        android:textSize="12dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="95dp"
+        />
+
+    <EditText
+        android:id="@+id/etAlas"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="200dp"
+        android:ems="10"
+        android:hint="alas"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etTinggi"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:hint="tinggi"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="290dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="280dp"
+        android:text="X" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/2"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="370dp"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/resultSegitiga"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="220dp"
+        android:text="Result: "
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/hitungSegitiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas Segitiga"
+        android:textSize="12dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="245dp" />
+
+    <EditText
+        android:id="@+id/etRuas"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="200dp"
+        android:ems="10"
+        android:hint="ruas lingkaran"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/resultLingkaran"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="370dp"
+        android:text="Result: "
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/hitungLingkaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas Linkaran"
+        android:textSize="12dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="400dp" />
+
+</FrameLayout>
